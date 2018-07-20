@@ -24,12 +24,15 @@
 
 // YOUR CODE HERE
 
-
-
-
-
-
-
+function partyBouncer(list) {
+  var partyBouncer = [];
+  for (let i = 0; i < list.length; i++) {
+    if (list[i].age > 18 && list[i].isFelon === false) {
+      partyBouncer.push(list[i].name);
+    }
+  }
+  return partyBouncer;
+}
 
 //------------------------------------------
 // TESTS

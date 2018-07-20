@@ -22,7 +22,15 @@
 
 // YOUR CODE HERE
 
-
+function vehicleFactory(brand, strModel, numYear) {
+    var auto = {
+        make: brand,
+        model: strModel,
+        year: numYear,
+        sold: false
+    };
+    return auto;
+}
 
 
 
